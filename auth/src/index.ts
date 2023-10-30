@@ -9,7 +9,7 @@ import {
   signoutRouter,
   signupRouter,
 } from "./routes";
-import { handleError } from "./middlewares/handleError";
+import { handleError } from "./middlewares/error-handler";
 import { NotFoundError } from "./errors/not-found-error";
 
 const app = expres();
